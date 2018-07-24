@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="/css/main.css">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <!-- top banner, logo and title -->
+    <div id="header">
+      <!-- logo image -->
+      <img src="/img/PCLOGO-MED44.png" alt="">
+      <h1 id="title"> Schedule Your Car Detail Today! </h1>
+    </div>
+    <!-- car owner form -->
+    <form id="owner-form" action="">
+      <!-- left column of form start -->
+      <div id="left-column">
+        <label for="name">Name:</label>
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder=" Name" required>
+        <label for="phone">Phone:</label>
+        <input autofocus type="text" name="phone" id="phone" class="input-field" placeholder=" Phone Number" required>
+        <label for="make">Make:</label>
+        <input autofocus type="text" name="lname" id="lname" class="input-field" placeholder="Enter your last name" required>
+        <label for="year"> Year: </label>
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+        <label for="start">Date:</label>
+        <input type="date" id="start" name="trip" value="2018-07-22" min="2018-01-01" max="2030-12-31" />
+      </div>
+      <!-- left column of form end -->
+      <!-- right column of form start -->
+      <div id="right-column">
+        <label for="lastname">Last Name:</label>
+        <input autofocus type="text" name="lname" id="lname" class="input-field" placeholder=" Last Name" required>
+        <label for="email">Email:</label>
+        <input autofocus type="text" name="email" id="email" class="input-field" placeholder=" Email" required>
+        <label for="model">Model:</label>
+        <input autofocus type="text" name="phone" id="phone" class="input-field" placeholder="Enter your phone number" required>
+        <label for="appt-time">Time:</label>
+        <input type="time" id="appt-time" name="appt-time" min="9:00" max="18:00" required />
+        <span class="hours">Office hours: 9AM to 6PM</span>
+        <button> Submit Your Request! </button>
+      </div>
+      <!-- right column of form start -->
+    </form>
+  </div>
+  </div>
+</body>
+
+</html>
